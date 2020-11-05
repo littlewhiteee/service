@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/dp_16"
+    android:background="#3F51B5"
+    android:id="@+id/rl_desktop"
+    >
+
+    <ImageView
+        android:id="@+id/iv_colse"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="right"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_close_grey"
+        android:visibility="gone"
+        tools:visibility="visible"
+        />
+</FrameLayout>
